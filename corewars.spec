@@ -1,3 +1,7 @@
+#
+# TODO:
+# - add desktop file and png icon for package.
+#
 Summary:	A simulation game
 Summary(pl):	Gra symulacyjna
 Name:		corewars
@@ -70,8 +74,6 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip ChangeLog DIFFERENCES INTERESTING-COMBINATIONS README TODO
-
 mkdir $RPM_BUILD_ROOT%{_datadir}/corewars/warriors
 mv warriors $RPM_BUILD_ROOT%{_datadir}/corewars/warriors/all
 # TODO: create links to above instead of doubling content
@@ -82,7 +84,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc ChangeLog DIFFERENCES INTERESTING-COMBINATIONS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man6/*
 %dir %{_datadir}/corewars
