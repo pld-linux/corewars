@@ -17,6 +17,7 @@ Source2:	http://corewars.sourceforge.net/hill-warriors.tar.gz
 # Source2-md5:	b10c44dfc18e39837fe45110df6086d3
 URL:		http://corewars.sf.net/
 BuildRequires:	gtk+-devel
+Requires:	nedit
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
