@@ -10,8 +10,11 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://download.sourceforge.net/corewars/%{name}-%{version}.tar.gz
+# Source0-md5:	3420dcf9c03927c8b3905a31c36a1cf3
 Source1:	http://corewars.sourceforge.net/warriors.tar.gz
+# Source1-md5:	bacc6cc1d3404f1ee7b09b00dd1252c6
 Source2:	http://corewars.sourceforge.net/hill-warriors.tar.gz
+# Source2-md5:	091f778ea0765c9008edc67c65ca7762
 URL:		http://corewars.sf.net/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
