@@ -16,8 +16,6 @@ URL:		http://corewars.sf.net/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 Core Wars is a simulation game. A number of programs are loaded into a
