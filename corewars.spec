@@ -12,9 +12,9 @@ Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	0a0b8067533b83a96488109ee265f664
 Source1:	http://corewars.sourceforge.net/warriors.tar.gz
-# Source1-md5:	74965e598da7edd2858175a46a5ec50f
+# Source1-md5:	6ad0dbacddda7253120ff15930d23009
 Source2:	http://corewars.sourceforge.net/hill-warriors.tar.gz
-# Source2-md5:	f3f33c8a8a7f2529cca583d876621ed9
+# Source2-md5:	b10c44dfc18e39837fe45110df6086d3
 URL:		http://corewars.sf.net/
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
