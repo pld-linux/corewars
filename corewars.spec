@@ -5,14 +5,14 @@
 Summary:	A simulation game
 Summary(pl):	Gra symulacyjna
 Name:		corewars
-Version:	0.9.12
+Version:	0.9.13
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	3420dcf9c03927c8b3905a31c36a1cf3
+# Source0-md5:	0a0b8067533b83a96488109ee265f664
 Source1:	http://corewars.sourceforge.net/warriors.tar.gz
-# Source1-md5:	937c8a990d299bd951a961a34ff9accb
+# Source1-md5:	74965e598da7edd2858175a46a5ec50f
 Source2:	http://corewars.sourceforge.net/hill-warriors.tar.gz
 # Source2-md5:	f3f33c8a8a7f2529cca583d876621ed9
 URL:		http://corewars.sf.net/
@@ -85,7 +85,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog DIFFERENCES INTERESTING-COMBINATIONS README TODO
+%doc ChangeLog README 
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man6/*
 %dir %{_datadir}/corewars
