@@ -12,7 +12,7 @@ Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	3420dcf9c03927c8b3905a31c36a1cf3
 Source1:	http://corewars.sourceforge.net/warriors.tar.gz
-# Source1-md5:	a20039f45905194ce4e088111e0af02e
+# Source1-md5:	937c8a990d299bd951a961a34ff9accb
 Source2:	http://corewars.sourceforge.net/hill-warriors.tar.gz
 # Source2-md5:	f3f33c8a8a7f2529cca583d876621ed9
 URL:		http://corewars.sf.net/
