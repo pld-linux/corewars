@@ -1,4 +1,3 @@
-#
 # TODO:
 # - add desktop file and png icon for package.
 #
@@ -9,17 +8,16 @@ Version:	0.9.13
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/corewars/%{name}-%{version}.tar.gz
 # Source0-md5:	0a0b8067533b83a96488109ee265f664
 Source1:	http://corewars.sourceforge.net/warriors.tar.gz
 # Source1-md5:	6ad0dbacddda7253120ff15930d23009
 Source2:	http://corewars.sourceforge.net/hill-warriors.tar.gz
 # Source2-md5:	b10c44dfc18e39837fe45110df6086d3
-URL:		http://corewars.sf.net/
+URL:		http://corewars.sourceforge.net/
 BuildRequires:	gtk+-devel
 Requires:	nedit
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 Core Wars is a simulation game. A number of programs are loaded into a
