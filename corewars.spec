@@ -53,7 +53,7 @@ siê w pakiecie pmars.
 Summary:	Core warriors
 Summary(pl):	Wojownicy rdzeniowi
 Group:		X11/Applications/Games
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description warriors
 Core warriors.
