@@ -2,7 +2,7 @@
 # - add desktop file and png icon for package.
 #
 Summary:	A simulation game
-Summary(pl):	Gra symulacyjna
+Summary(pl.UTF-8):   Gra symulacyjna
 Name:		corewars
 Version:	0.9.13
 Release:	1
@@ -35,30 +35,30 @@ learn but also more powerful.
 Additional polish Core Wars documentation is contained in pmars
 package.
 
-%description -l pl
-Wojny Rdzeniowe s± gr± symulacyjn±. Kilka programów zostaje
-za³adowanych do wirtualnej pamiêci i wykonanych. Programy mog±
-wysypywaæ inne programy, manipulowaæ nimi, nadpisywaæ pamiêæ, etc.
-Mechanizm wyboru najlepszego programu bierze pod uwagê ilo¶æ komórek
-pamiêci, które program nadpisa³, liczbê ubitych programów oraz
-okoliczno¶ci ¶mierci.
+%description -l pl.UTF-8
+Wojny Rdzeniowe sÄ… grÄ… symulacyjnÄ…. Kilka programÃ³w zostaje
+zaÅ‚adowanych do wirtualnej pamiÄ™ci i wykonanych. Programy mogÄ…
+wysypywaÄ‡ inne programy, manipulowaÄ‡ nimi, nadpisywaÄ‡ pamiÄ™Ä‡, etc.
+Mechanizm wyboru najlepszego programu bierze pod uwagÄ™ iloÅ›Ä‡ komÃ³rek
+pamiÄ™ci, ktÃ³re program nadpisaÅ‚, liczbÄ™ ubitych programÃ³w oraz
+okolicznoÅ›ci Å›mierci.
 
-U¿ywane s± dwa jêzyki. Pierwszy, "Corewars", jest ³atwy do nauczenia
-siê. Drugi, "Redcode", jest trudniejszy, lecz bardziej potê¿ny.
+UÅ¼ywane sÄ… dwa jÄ™zyki. Pierwszy, "Corewars", jest Å‚atwy do nauczenia
+siÄ™. Drugi, "Redcode", jest trudniejszy, lecz bardziej potÄ™Å¼ny.
 
-Dodatkowa dokumentacja po polsku dotycz±ca Wojen Rdzeniowych znajduje
-siê w pakiecie pmars.
+Dodatkowa dokumentacja po polsku dotyczÄ…ca Wojen Rdzeniowych znajduje
+siÄ™ w pakiecie pmars.
 
 %package warriors
 Summary:	Core warriors
-Summary(pl):	Wojownicy rdzeniowi
+Summary(pl.UTF-8):   Wojownicy rdzeniowi
 Group:		X11/Applications/Games
 Requires:	%{name} = %{version}-%{release}
 
 %description warriors
 Core warriors.
 
-%description warriors -l pl
+%description warriors -l pl.UTF-8
 Wojownicy rdzeniowi.
 
 %prep
