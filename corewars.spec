@@ -2,7 +2,7 @@
 # - add desktop file and png icon for package.
 #
 Summary:	A simulation game
-Summary(pl.UTF-8):   Gra symulacyjna
+Summary(pl.UTF-8):	Gra symulacyjna
 Name:		corewars
 Version:	0.9.13
 Release:	1
@@ -51,7 +51,7 @@ się w pakiecie pmars.
 
 %package warriors
 Summary:	Core warriors
-Summary(pl.UTF-8):   Wojownicy rdzeniowi
+Summary(pl.UTF-8):	Wojownicy rdzeniowi
 Group:		X11/Applications/Games
 Requires:	%{name} = %{version}-%{release}
 
